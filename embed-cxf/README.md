@@ -16,7 +16,7 @@ mvn archetype:generate -DgroupId=dev.ubcode.blogposts -DartifactId=embed-cxf -Da
 
 The above code will us create directory name *embed-cxf* and this directory will look like below.
 
-![](https://github.com/uuganbold/blogposts/tree/embed-cxf/images/dirstructure.png)
+![direcory structure](https://github.com/uuganbold/blogposts/blob/embed-cxf/embed-cxf/images/dirstructure.png?raw=true=200px)
 
 ## 3. Importing Apache CXF
 
@@ -135,7 +135,8 @@ Then we need create cxf.xml file and java codes, but it is not a thing I am inte
 However, you can see the full project from the my [Github.](https://github.com/uuganbold/blogposts/tree/embed-cxf/embed-cxf).
 
 After you created all things, your directory structure should look like below (excluding README and embed-cxf.iml)
-![](https://github.com/uuganbold/blogposts/tree/embed-cxf/embed-cxf/images/after.png)
+
+![after structure](https://github.com/uuganbold/blogposts/blob/embed-cxf/embed-cxf/images/after.png?raw=true=200px)
 
 ### Building
 
