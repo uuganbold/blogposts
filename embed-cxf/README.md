@@ -1,7 +1,7 @@
 # Embedding Apache CXF within webapp
 
-I decided to write blog in order to improve my English as well as writing skills. And also I think it will help me to
-strengthen what I have known and what I have learned. 
+I decided to write blog in order to improve my English as well as writing skills. And also I think it will help me
+save what I have learned into my "Hard Disk Drive" 
 
 ## 1. Overview 
 So in my first blog I will share how to embed Apache-CXF in your webapp.
@@ -16,7 +16,7 @@ mvn archetype:generate -DgroupId=dev.ubcode.blogposts -DartifactId=embed-cxf -Da
 
 The above code will us create directory name *embed-cxf* and this directory will look like below.
 
-![](images/dirstructure.png)
+![](https://github.com/uuganbold/blogposts/tree/embed-cxf/images/dirstructure.png)
 
 ## 3. Importing Apache CXF
 
@@ -134,9 +134,12 @@ It is saying CXFServlet will use Spring's WebApplicationContext from WEB-INF/cxf
 Then we need create cxf.xml file and java codes, but it is not a thing I am intending to write. 
 However, you can see the full project from the my [Github.](https://github.com/uuganbold/blogposts/tree/embed-cxf/embed-cxf).
 
+After you created all things, your directory structure should look like below (excluding README and embed-cxf.iml)
+![](https://github.com/uuganbold/blogposts/tree/embed-cxf/embed-cxf/images/after.png)
+
 ### Building
 
-I think any java IDE will detect maven's pom and configure you built. But if you want you can use Maven's goal to build the project.
+I think any java IDE will detect maven's pom and configure you building. But if you want you can use Maven's goal to build the project.
 
 ```shell script
 mvn package
